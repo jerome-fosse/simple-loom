@@ -2,6 +2,9 @@ package fr.jfosse.demo._6_ScopeLocal;
 
 import jdk.incubator.concurrent.ScopeLocal;
 
+/**
+ run with the following flags : --enable-preview --add-modules jdk.incubator.concurrent
+ */
 public class DemoScopeLocal {
 
     private static ScopeLocal<String> scopeLocal = ScopeLocal.newInstance();

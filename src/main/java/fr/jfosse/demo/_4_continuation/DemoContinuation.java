@@ -3,6 +3,9 @@ package fr.jfosse.demo._4_continuation;
 import jdk.internal.vm.Continuation;
 import jdk.internal.vm.ContinuationScope;
 
+/**
+ run with the following flags : --add-exports java.base/jdk.internal.vm=ALL-UNNAMED
+ */
 public class DemoContinuation {
     public static void main(String[] args) {
         var scope = new ContinuationScope("My Scope");

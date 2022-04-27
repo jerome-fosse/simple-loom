@@ -6,6 +6,9 @@ import java.util.concurrent.Callable;
 import java.util.concurrent.ExecutionException;
 import java.util.random.RandomGenerator;
 
+/**
+ run with the following flags : --enable-preview --add-modules jdk.incubator.concurrent
+ */
 public class DemoShutdownOnFailure {
     public static void main(String[] args) throws ExecutionException, InterruptedException {
         var task1 = new Callable<Integer>() {

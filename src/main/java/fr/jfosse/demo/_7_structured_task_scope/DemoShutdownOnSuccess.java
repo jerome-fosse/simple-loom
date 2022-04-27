@@ -9,6 +9,9 @@ import java.util.concurrent.ExecutionException;
 import java.util.concurrent.TimeoutException;
 import java.util.random.RandomGenerator;
 
+/**
+ run with the following flags : --enable-preview --add-modules jdk.incubator.concurrent
+ */
 public class DemoShutdownOnSuccess {
     public static void main(String[] args) throws ExecutionException, InterruptedException {
         var task1 = new Callable<Integer>() {

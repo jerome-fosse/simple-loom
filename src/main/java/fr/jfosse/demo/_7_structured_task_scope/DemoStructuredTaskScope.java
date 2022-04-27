@@ -5,6 +5,9 @@ import jdk.incubator.concurrent.StructuredTaskScope;
 import java.util.concurrent.Callable;
 import java.util.concurrent.ExecutionException;
 
+/**
+ run with the following flags : --enable-preview --add-modules jdk.incubator.concurrent
+ */
 public class DemoStructuredTaskScope {
 
     public static void main(String[] args) throws ExecutionException, InterruptedException {

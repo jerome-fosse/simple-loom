@@ -3,6 +3,9 @@ package fr.jfosse.demo._3_virtual_threads;
 import java.time.Instant;
 import java.util.stream.IntStream;
 
+/**
+ run with the following flags : --enable-preview
+ */
 public class DemoHowManyVirtualThreads {
     public static void main(String[] args) throws InterruptedException {
         class MyRunnable implements Runnable {

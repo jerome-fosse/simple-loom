@@ -2,6 +2,9 @@ package fr.jfosse.demo._3_virtual_threads;
 
 import java.time.Instant;
 
+/**
+run with the following flags : --enable-preview
+ */
 public class DemoVirtualThreads {
 
     public static void main(String[] args) throws InterruptedException {
